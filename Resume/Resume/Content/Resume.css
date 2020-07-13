@@ -1,0 +1,40 @@
+﻿
+
+.full-name-txt {
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+.avatar-img {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.section-title{
+    color: rgb(165, 205, 225);
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: -35px;
+}
+
+
+.list-enum, .badge-size {
+    font-size: 18px;
+}
+
+.study-ended, .study-cur {
+    color: rgb(17, 14, 14);
+}
+
+.study-ended {
+    background-color: red;
+}
+
+.study-cur {
+    background-color: rgb(225, 220, 119);
+}
