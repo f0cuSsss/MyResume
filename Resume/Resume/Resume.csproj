@@ -125,9 +125,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Util.cs" />
+    <Compile Include="Models\Resume.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Migrations\Tables.sql" />
+    <Content Include="App_Data\OOA.txt" />
+    <Content Include="App_Data\resum_db.mdf" />
+    <Content Include="App_Data\resum_db_log.ldf">
+      <DependentUpon>resum_db.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\Seeds\Inserts.sql" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -168,10 +177,7 @@
     <Content Include="Views\Resume\Index.cshtml" />
     <Content Include="Views\Resume\Certificates.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

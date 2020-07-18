@@ -1,21 +1,16 @@
 ﻿
-@{
-    ViewBag.Title = "Index";
-}
 
 
-@*Need from db*@
-<img class="avatar-img img-circle center-block" src="~/Images/Ava.jpeg" alt="" />
+<img class="avatar-img img-circle center-block" src="@ViewBag.myResume.Ava_path" alt="" />
 
 
-@*Need from db*@
-<h2 class="full-name-txt page-header text-center">Vladyslav Parubchenko</h2>
+<h2 class="full-name-txt page-header text-center">@ViewBag.myResume.Firstname @ViewBag.myResume.Secondname</h2>
 
 
 @*<span class="text-info section-title">About me</span>*@
 
 @*Need from db*@
-<table class="table table-hover table-responsive table-bordered  table-striped">
+<table class="table table-hover table-responsive table-bordered table-striped">
 
     <tr>
         <td>Phone humber</td>
@@ -33,6 +28,7 @@
     <tr>
         <td>Date of birth</td>
         <td>15.11.2000</td>
+        @*<td>@ViewBag.myResume.DOB.ToString("MM/dd/yy")</td>*@
     </tr>
 
     <tr>
@@ -70,10 +66,40 @@
 
 <ul class="list-enum">
     <li>
-        First
+        development of applications for Windows on the WinForms / WPF;
     </li>
     <li>
-        Second
+        cross-platform development of mobile applications on Xamarin Forms;
+    </li>
+    <li>
+        MSSQL, MySQL;
+    </li>
+    <li>
+        web application development / API on ASP.NET MVC, NodeJS;
+    </li>
+    <li>
+        OOA, OOD, OOP;
+    </li>
+    <li>
+        UML;
+    </li>
+    <li>
+        ADO.NET, Entity Framework;
+    </li>
+    <li>
+        JS, jQuery, AngularJS, ReactJS;
+    </li>
+    <li>
+        AJAX, SMTP, REST,
+    </li>
+    <li>
+        HTML, CSS | Bootstrap
+    </li>
+    <li>
+        Design patterns
+    </li>
+    <li>
+        git | Azure, Github
     </li>
 </ul>
 
@@ -84,9 +110,30 @@
 
 <ul class="list-enum">
     <li>
-        First
+        Test
     </li>
     <li>
-        Second
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
+    </li>
+    <li>
+        Test
     </li>
 </ul>

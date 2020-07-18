@@ -1,0 +1,15 @@
+user[id, firstname, secondname, patronymic, dob, ava_path]
+
+phone_number[id, id_user, number]
+email[id, id_user, email]
+language[id, name]
+languages_has_user[id, id_user, id_language, lvl]
+
+education[id, name]
+education_has_user[id, id_user, id_education, start_DT, end_DT]
+
+skills[id, name]
+skills_has_user[id, id_user, id_skill, ]
+
+project[id, name, description, link]
+projects_has_user[id, id_user, id_project] 
